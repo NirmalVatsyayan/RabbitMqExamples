@@ -1,0 +1,15 @@
+1) To list all queues on rabbit mq server
+
+    -sudo rabbitmqctl list_queues
+
+2) To list number of unacknowledged message
+    
+    -sudo rabbitmqctl list_queues name messages_ready messages_unacknowledged
+
+3) To list all exchange types
+
+    - sudo rabbitmqctl list_exchanges
+
+4) To list all bindings
+
+    - rabbitmqctl list_bindings
